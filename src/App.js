@@ -1,23 +1,20 @@
 import './App.css';
-import image from './packeg.webp'
-import imageTwo from './deliveryman.webp'
-import { GroceryList } from './GroceryList';
+import Cart from './Components/Cart/Cart';
+import Dishes from "./Components/DishesComponent/Dishes";
+import AllCategories from './Components/Filter/AllCategories';
 
 function App() {
-  return (
-    <div className="app">
-      <div className="container">
-      <img src={image} width="250px" alt="shoper"/>
+  return(
+    <div className='App'>
+      <div className='block'>
+      <AllCategories/>
+      <Cart/>
       </div>
-      <div className="container">
-      <h1>Grocery List</h1>
-      </div>
-      <GroceryList/>
-      <div className="container">
-      <img src={imageTwo} width="250px" alt="deliveryman"/>
+      <div className='block'>
+      <Dishes/>
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
