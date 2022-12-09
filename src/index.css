@@ -63,6 +63,33 @@ body {
     font-size: 45px;
     font-family: 'Ephesis', cursive;
   }
-  .logo, .icon{
+  .logo{
     width: 40px;
+  }
+  .icon{
+    width: 30px;
+  }
+  .addToCartBtn {
+    background-color: #434242;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+  } 
+  .price {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .btnRemove, .btnAdd {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    border: none;
+
+  }
+  .quantity{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Ephesis', cursive;
   }
