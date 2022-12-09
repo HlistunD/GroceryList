@@ -63,6 +63,6 @@ body {
     font-size: 45px;
     font-family: 'Ephesis', cursive;
   }
-  .logo{
+  .logo, .icon{
     width: 40px;
   }
